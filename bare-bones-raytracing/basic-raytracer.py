@@ -54,6 +54,6 @@ def display_mesh(vertices, edges):
     plt.show()
 
 # Usage
-filename = 'edge-vertice-cube.txt'
+filename = 'meshes/edge-vertice-cube.txt'
 vertices, edges = read_mesh_from_file(filename)
 display_mesh(vertices, edges)
