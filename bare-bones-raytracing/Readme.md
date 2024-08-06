@@ -7,7 +7,7 @@ A set of python functions for importing object meshes
 A set of python functions for diplaying objects
 
 **edge-vertices-cube.txt:**
-This is the simpliest mesh possible. It is a .txt file made up of geometric points. The vertices are the (x,y,z) coordinates that define the bournds of the object.
+This is the simpliest mesh possible. It is a .txt file made up of geometric points. The vertices are the (x,y,z) coordinates that define the bounds of the object.
 The edges are the line between each (x,y,z) bound. So in essence, a mesh is a collection of points and the lines connecting them. This mesh reprsents a simple, textureless cube.
 
 **basic-raytracer:**
