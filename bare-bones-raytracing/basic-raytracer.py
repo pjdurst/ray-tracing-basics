@@ -6,9 +6,13 @@ from mpl_toolkits.mplot3d.art3d import Line3DCollection
 import import_mesh
 import visualize_mesh
 
-# import mesh file
+# import simple cube mesh
 filename = 'meshes/edge-vertice-cube.txt'
-vertices, edges = import_mesh.read_mesh_from_file(filename)
-
-# display mesh
+vertices, edges = import_mesh.read_simple_mesh(filename)
+# display simple mesh
 visualize_mesh.display_mesh(vertices, edges)
+
+# import trianglur cube mesh
+filename_triangle = 'meshes/triangle-cube.txt'
+vertices, edges, triangles = import_mesh.read_triangle_mesh(filename_triangle)
+visualize_mesh.display_triangle_mesh(vertices, edges, triangles)
